@@ -2,11 +2,22 @@
     "0123456789": {
         "name": "John Doe",
         "address": "123 Rue de Paris, 75001 Paris",
-        "otherInfo": "Client régulier"
+        "otherInfo": "Client régulier",
+        "photo": "https://example.com/photos/john_doe.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/john.doe",
+            "twitter": "https://twitter.com/john_doe",
+            "linkedin": "https://linkedin.com/in/john-doe"
+        }
     },
     "0987654321": {
         "name": "Jane Smith",
         "address": "456 Boulevard Saint-Germain, 75006 Paris",
-        "otherInfo": "A commandé récemment"
+        "otherInfo": "A commandé récemment",
+        "photo": "https://example.com/photos/jane_smith.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/jane.smith",
+            "twitter": "https://twitter.com/jane_smith"
+        }
     }
 }
