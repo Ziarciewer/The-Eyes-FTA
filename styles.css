@@ -7,19 +7,20 @@
 
 /* Global styles */
 html, body {
-    height: 100%; /* Permet à la page de prendre toute la hauteur de la fenêtre */
+    height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Organise le contenu en colonne */
+    flex-direction: column;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #111; /* Fond noir */
+    color: #f4f4f4; /* Texte de couleur claire pour le contraste */
 }
 
 /* Style pour l'en-tête */
 header {
-    background-color: #007BFF;
-    color: white;
+    background-color: #000; /* Fond noir */
+    color: #ff0000; /* Rouge vif pour les titres */
     padding: 15px;
     text-align: center;
 }
@@ -32,6 +33,7 @@ header h1 {
 header p {
     margin: 5px 0;
     font-size: 1.2em;
+    color: #ff0000; /* Rouge pour le sous-texte */
 }
 
 nav ul {
@@ -45,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ff0000; /* Liens en rouge */
     text-decoration: none;
 }
 
@@ -55,7 +57,7 @@ nav ul li a:hover {
 
 /* Main content wrapper */
 main {
-    flex: 1; /* Permet à la section principale de prendre l'espace restant */
+    flex: 1;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -64,7 +66,7 @@ main {
 
 /* Style pour les titres */
 h2 {
-    color: #333;
+    color: #ff0000; /* Rouge pour les titres de sections */
 }
 
 /* Style pour le formulaire de recherche */
@@ -78,19 +80,22 @@ label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    color: #ff0000; /* Rouge pour les étiquettes */
 }
 
 input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #555; /* Bordure grise pour un contraste modéré */
     border-radius: 4px;
+    background-color: #222; /* Fond sombre */
+    color: #fff; /* Texte blanc */
     font-size: 1em;
 }
 
 input[type="submit"] {
-    background-color: #007BFF;
+    background-color: #ff0000; /* Rouge vif */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -100,19 +105,30 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #cc0000; /* Rouge plus foncé au survol */
 }
 
 /* Style pour la section des résultats */
 #result {
-    background-color: white;
+    background-color: #222; /* Fond sombre pour les résultats */
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #444; /* Bordure sombre */
     border-radius: 4px;
     margin-top: 20px;
     width: 100%;
     max-width: 600px;
     text-align: center;
+}
+
+#result h3 {
+    color: #ff0000; /* Rouge pour les titres des résultats */
+    margin-bottom: 15px;
+}
+
+#result p {
+    font-size: 1em;
+    color: #f4f4f4; /* Texte clair pour le contraste */
+    margin: 5px 0;
 }
 
 /* Style pour la photo de profil */
@@ -126,22 +142,9 @@ input[type="submit"]:hover {
     margin-right: auto;
 }
 
-/* Style pour les informations de l'utilisateur */
-#result p {
-    font-size: 1em;
-    color: #333;
-    margin: 5px 0;
-}
-
-/* Style pour les titres de résultats */
-#result h3 {
-    color: #007BFF;
-    margin-bottom: 15px;
-}
-
 /* Style pour les réseaux sociaux */
 #result a {
-    color: #007BFF;
+    color: #ff0000; /* Liens des réseaux sociaux en rouge */
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -154,14 +157,14 @@ input[type="submit"]:hover {
 
 /* Sticky footer */
 footer {
-    background-color: #007BFF;
-    color: white;
+    background-color: #000; /* Footer noir */
+    color: #ff0000; /* Texte rouge */
     text-align: center;
     padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: auto; /* Fait en sorte que le footer colle au bas */
+    margin-top: auto;
 }
 
 footer p {
