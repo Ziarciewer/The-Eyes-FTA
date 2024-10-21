@@ -2,7 +2,7 @@
     "0123456789": {
         "name": "John Doe",
         "address": "123 Rue de Paris, 75001 Paris",
-        "otherInfo": "Client régulier",
+        "otherInfo": "Client régulier, membre VIP depuis 2020",
         "photo": "https://example.com/photos/john_doe.jpg",
         "socialLinks": {
             "facebook": "https://facebook.com/john.doe",
@@ -13,11 +13,42 @@
     "0987654321": {
         "name": "Jane Smith",
         "address": "456 Boulevard Saint-Germain, 75006 Paris",
-        "otherInfo": "A commandé récemment",
+        "otherInfo": "A commandé récemment des services premium",
         "photo": "https://example.com/photos/jane_smith.jpg",
         "socialLinks": {
             "facebook": "https://facebook.com/jane.smith",
-            "twitter": "https://twitter.com/jane_smith"
+            "twitter": "https://twitter.com/jane_smith",
+            "instagram": "https://instagram.com/jane.smith"
+        }
+    },
+    "0612345678": {
+        "name": "Michel Dupont",
+        "address": "789 Rue de Lyon, 69002 Lyon",
+        "otherInfo": "Nouveau client, a demandé une première consultation",
+        "photo": "https://example.com/photos/michel_dupont.jpg",
+        "socialLinks": {
+            "facebook": "https://facebook.com/michel.dupont",
+            "linkedin": "https://linkedin.com/in/michel-dupont"
+        }
+    },
+    "0712345678": {
+        "name": "Sophie Martin",
+        "address": "321 Avenue des Champs-Élysées, 75008 Paris",
+        "otherInfo": "VIP, cliente fidèle depuis 2015",
+        "photo": "https://example.com/photos/sophie_martin.jpg",
+        "socialLinks": {
+            "twitter": "https://twitter.com/sophie_martin",
+            "instagram": "https://instagram.com/sophie.martin"
+        }
+    },
+    "0412345678": {
+        "name": "Pierre Leroy",
+        "address": "654 Rue du Bac, 75007 Paris",
+        "otherInfo": "A participé à plusieurs événements exclusifs",
+        "photo": "https://example.com/photos/pierre_leroy.jpg",
+        "socialLinks": {
+            "linkedin": "https://linkedin.com/in/pierre-leroy",
+            "facebook": "https://facebook.com/pierre.leroy"
         }
     }
 }
