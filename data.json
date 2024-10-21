@@ -1,3 +1,38 @@
+
+
+
+{
+    "+594694008801": {
+        "name": "Clarence BELIZAIRE",
+        "address": "29 rue cité Bonhomme, Guyane française",
+        "otherInfo": "Près de l’hôpital La Madeleine. Professionnel en Mécanique.",
+        "photo": "images/clarence_belizaire.jpg",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/clarens.belizaire.3",
+            "tiktok": "https://www.tiktok.com/@clarensbelizaire?_t=8qjg6Y1UXgG&_r=1"
+        }
+    }
+}
+
+
+
+{
+    "+594694074823": {
+        "name": "Josué Saint Cyr",
+        "address": "12-10 Rue du Général Gustave Stanislas, Cayenne 97300, Guyane française",
+        "otherInfo": "Proche du centre-ville. Habite en Guyane française.",
+        "photo": "https://www.facebook.com/share/TR9cjuDmzEH8DcUC/?mibextid=WC7FNe",
+        "socialLinks": {
+            "facebook": "https://www.facebook.com/profile.php?id=100090341353693",
+            "tiktok": "https://www.tiktok.com/@saint.cyr.josue?_t=8qjf54V5adM&_r=1"
+        }
+    }
+}
+
+
+
+
+
 {
     "0123456789": {
         "name": "John Doe",
