@@ -1,9 +1,19 @@
-/* Style général pour le corps du site */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Réinitialisation de certains styles de base pour harmoniser l'affichage */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+html, body {
+    height: 100%; /* Permet à la page de prendre toute la hauteur de la fenêtre */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organise le contenu en colonne */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 /* Style pour l'en-tête */
@@ -16,7 +26,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 header p {
@@ -43,12 +53,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Style principal pour la section du contenu */
+/* Main content wrapper */
 main {
+    flex: 1; /* Permet à la section principale de prendre l'espace restant */
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-/* Style des titres de sections */
+/* Style pour les titres */
 h2 {
     color: #333;
 }
@@ -56,6 +70,8 @@ h2 {
 /* Style pour le formulaire de recherche */
 form {
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
 }
 
 label {
@@ -94,6 +110,9 @@ input[type="submit"]:hover {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
 }
 
 /* Style pour la photo de profil */
@@ -103,48 +122,68 @@ input[type="submit"]:hover {
     border-radius: 50%;
     margin-bottom: 15px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Style pour les liens des réseaux sociaux */
-#result a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#result a:hover {
-    text-decoration: underline;
-}
-
-/* Style pour les paragraphes des résultats */
+/* Style pour les informations de l'utilisateur */
 #result p {
     font-size: 1em;
     color: #333;
     margin: 5px 0;
 }
 
-/* Style pour les titres dans la section des résultats */
+/* Style pour les titres de résultats */
 #result h3 {
     color: #007BFF;
     margin-bottom: 15px;
 }
 
-#result h4 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #333;
+/* Style pour les réseaux sociaux */
+#result a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px;
 }
 
-/* Style pour le pied de page */
+#result a:hover {
+    text-decoration: underline;
+}
+
+/* Sticky footer */
 footer {
     background-color: #007BFF;
     color: white;
     text-align: center;
-    padding: 0px 0;
-    margin-top: 20px;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Fait en sorte que le footer colle au bas */
 }
 
 footer p {
     margin: 0;
     font-size: 0.9em;
+}
+
+/* Style responsive pour petits écrans */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    input[type="text"],
+    input[type="submit"],
+    #result {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #result img {
+        width: 100px;
+        height: 100px;
+    }
 }
