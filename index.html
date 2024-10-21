@@ -3,50 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site de Recherche</title>
+    <title>The Eyes FTA - Recherche par numéro</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon site de recherche</h1>
+        <h1>The Eyes FTA</h1>
+        <p>Créé par Wharkly47</p>
         <nav>
             <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Recherche par numéro</a></li>
+                <!-- Vous pouvez ajouter une section pour la recherche par photo ici plus tard -->
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="about">
-            <h2>À propos</h2>
-            <p>Informations sur votre recherche.</p>
-        </section>
-        <section id="publications">
-            
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-                <input type="submit" value="Envoyer">
+        <section>
+            <h2>Rechercher des informations par numéro</h2>
+            <form id="search-form">
+                <label for="phone-number">Entrez un numéro :</label>
+                <input type="text" id="phone-number" placeholder="Ex: 0123456789" required>
+                <input type="submit" value="Rechercher">
             </form>
+
+            <div id="result">
+                <!-- Les résultats de la recherche apparaîtront ici -->
+            </div>
         </section>
-
-
-     <h2>Publications</h2>
-            <ul>
-                <li><a href="lien_vers_article1">Article 1</a></li>
-                <li><a href="lien_vers_article2">Article 2</a></li>
-            </ul>
-
-        
     </main>
+
     <footer>
-        <p>&copy; 2024 Mon Site de Recherche</p>
+        <p>&copy; 2024 The Eyes FTA - Wharkly47</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
