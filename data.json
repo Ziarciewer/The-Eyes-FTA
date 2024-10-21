@@ -1,0 +1,12 @@
+{
+    "0123456789": {
+        "name": "John Doe",
+        "address": "123 Rue de Paris, 75001 Paris",
+        "otherInfo": "Client régulier"
+    },
+    "0987654321": {
+        "name": "Jane Smith",
+        "address": "456 Boulevard Saint-Germain, 75006 Paris",
+        "otherInfo": "A commandé récemment"
+    }
+}
